@@ -1,3 +1,6 @@
+//lock has declared and initialized by DEFINE_SPINLOCK,
+//so we don't need to spin_lock_init again, drop it.
+
 virtual content
 virtual patch
 
